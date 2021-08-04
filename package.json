@@ -1,7 +1,7 @@
 {
   "name": "com.pixelplacement.itween",
   "displayName": "iTween",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "unity": "2018.1",
   "description": "iTween is a battle-tested tweening and interpolation solution for Unity.\n\nFor more information, click the 'View documentation link above.",
   "keywords": [
