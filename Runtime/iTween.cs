@@ -6334,8 +6334,10 @@ public class iTween : MonoBehaviour
 			if(method == "gizmos"){
 				Gizmos.DrawLine(line[i], line[i+1]);;
 			}else if(method == "handles"){
+#if UNITY_EDITOR
 				//Debug.LogError("iTween Error: Drawing a line with Handles is temporarily disabled because of compatability issues with Unity 2.6!");
 				UnityEditor.Handles.DrawLine(line[i], line[i+1]);
+#endif
 			}
 		}
 	}		
@@ -6353,8 +6355,10 @@ public class iTween : MonoBehaviour
 			if(method == "gizmos"){
 				Gizmos.DrawLine(currPt, prevPt);
 			}else if(method == "handles"){
+#if UNITY_EDITOR
 				//Debug.LogError("iTween Error: Drawing a path with Handles is temporarily disabled because of compatability issues with Unity 2.6!");
 				UnityEditor.Handles.DrawLine(currPt, prevPt);
+#endif
 			}
 			prevPt = currPt;
 		}
