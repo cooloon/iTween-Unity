@@ -30,7 +30,7 @@ To install this package, you need to edit your Unity project's `Packages/manifes
 ```json
 {
   "dependencies": {
-    "com.pixelplacement.itween": "https://github.com/cooloon/iTween-Unity#1.0.1",
+    "com.pixelplacement.itween": "https://github.com/cooloon/iTween-Unity#1.0.2",
    }
 }
 ```
