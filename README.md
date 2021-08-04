@@ -7,8 +7,8 @@ like Square-Enix.
 For complete documentation, examples, information or reporting any kind of bugs/comments/suggestions
 visit [itween.pixelplacement.com](http://itween.pixelplacement.com)
 
-This Unity package is maintained by **@itsjavi** in Github:
-[github.com/itsjavi/iTween-Unity](https://github.com/itsjavi/iTween-Unity)
+This Unity package is maintained by **@cooloon** in Github:
+[github.com/cooloon/iTween-Unity](https://github.com/cooloon/iTween-Unity)
 
 Licensed under the MIT License.
 
@@ -30,7 +30,7 @@ To install this package, you need to edit your Unity project's `Packages/manifes
 ```json
 {
   "dependencies": {
-    "com.pixelplacement.itween": "https://github.com/itsjavi/iTween-Unity#1.0.0",
+    "com.pixelplacement.itween": "https://github.com/cooloon/iTween-Unity#1.0.0",
    }
 }
 ```
